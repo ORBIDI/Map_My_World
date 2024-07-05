@@ -9,25 +9,36 @@ Map My World is a backend application built with FastAPI and SQLAlchemy for expl
 - Exploration Recommender: Recommends unreviewed location-category combinations based on specified criteria.
 - Robust API: Provides endpoints for CRUD operations on locations and categories
 
-
-
-1. [Instalación](#instalación)
-2. [Uso](#uso)
-3. [Rutas y Endpoints](#rutas-y-endpoints)
-4. [Ejemplos](#ejemplos)
-5. [Contribución](#contribución)
-6. [Licencia](#licencia)
-7. [Contacto](#contacto)
+## Technologies Used
+- Python
+- FastAPI
+- SQLAlchemy
+- SQLite (for local development)
 
 ## Instalación
 
+    1. Clona el repositorio:    
+        git clone https://github.com/your/repository.git
+        cd repository
+
+    2. Set up virtual environment (optional but recommended):
+        python -m venv venv
+        source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+    3. Install dependencies:
+        pip install -r requirements.txt
+
+    4. Set up the database::
+        # Assuming you have SQLAlchemy configured in your app
+        python app/db/init_db.py
+
+## Configuration
+    Update app/config.py with your specific configurations (database connection, etc.).
+
+##Usage
     1. Clona el repositorio:
     
-    git clone https://github.com/Justo-Supermercado/api-justo.git
-
-    2. Instala las dependencias:
-
-        - mvn clean install
+        
         
 
 ## Uso
