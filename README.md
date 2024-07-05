@@ -35,31 +35,13 @@ Map My World is a backend application built with FastAPI and SQLAlchemy for expl
 ## Configuration
     Update app/config.py with your specific configurations (database connection, etc.).
 
-##Usage
-    1. Clona el repositorio:
-    
+## Usage
+
+    1. Run the application:    
+        uvicorn app.main:app --reload
+    2. Access the API documentation:    
+        Use Swagger UI at http://localhost:8000/docs to test and interact with the API.
         
-        
-
-## Uso
-    Para iniciar el servidor, ejecuta el siguiente comando:
-
-    mvn spring-boot:run    
-
-    o por medio de Docker: 
-    
-        - docker build -t api-justo:1.1 .
-        - docker images
-        - docker run -p 8080:8080 idImagen
-
-    El servidor estará disponible en http://localhost:8080.
-
-## Rutas y Endpoints
-    Aquí se describen las rutas y endpoints del API:
-
-    /api/products: Obtiene los productos
-    api/purchase/prices: obtiene los productos seleccionados indicando, precio y descuento aplicado. 
-
 ## Contribución
     Si quieres contribuir al proyecto, sigue estos pasos:
 
@@ -70,4 +52,4 @@ Map My World is a backend application built with FastAPI and SQLAlchemy for expl
         5. Crea una nueva solicitud de extracción.
 
 ## Contacto
-    Para cualquier pregunta o comentario, no dudes en contactarme a través de betobustamante.ef@gmail.com o visita mi perfil en [https://github.com/betobustamante].
+    Para cualquier pregunta o comentario, no dudes en contactarme a través de betobustamante.ef@gmail.com o visita mi perfil en [https://github.com/ORBIDI/Map_My_World.git].
