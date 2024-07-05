@@ -254,3 +254,4 @@ WHERE location_category_reviewed.last_reviewed >= :last_reviewed_1
 2024-07-05 16:07:30,407 - app.services.recommendations - INFO - subquery: SELECT location_category_reviewed.location_id, location_category_reviewed.category_id 
 FROM location_category_reviewed 
 WHERE location_category_reviewed.last_reviewed >= :last_reviewed_1
+2024-07-05 16:16:26,532 - app.main - INFO - Aplicación FastAPI iniciada
