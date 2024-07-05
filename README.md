@@ -43,13 +43,7 @@ Map My World is a backend application built with FastAPI and SQLAlchemy for expl
         Use Swagger UI at http://localhost:8000/docs to test and interact with the API.
         
 ## Contribución
-    Si quieres contribuir al proyecto, sigue estos pasos:
-
-        1. Haz un fork del repositorio.
-        2. Crea una nueva rama (git checkout -b feature)
-        3. Haz tus cambios y confirma (git commit -am 'Agrega una nueva función')
-        4. Empuja a la rama (git push origin feature)
-        5. Crea una nueva solicitud de extracción.
+    Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
 ## Contacto
     Para cualquier pregunta o comentario, no dudes en contactarme a través de betobustamante.ef@gmail.com o visita mi perfil en [https://github.com/ORBIDI/Map_My_World.git].
