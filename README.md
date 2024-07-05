@@ -2,7 +2,14 @@
 
 Map My World is a backend application built with FastAPI and SQLAlchemy for exploring and reviewing different locations and categories worldwide.
 
-## Tabla de Contenidos
+## Features
+
+- Location Management: Add and manage locations with latitude and longitude.
+- Category Management: Define and manage categories for different types of places.
+- Exploration Recommender: Recommends unreviewed location-category combinations based on specified criteria.
+- Robust API: Provides endpoints for CRUD operations on locations and categories
+
+
 
 1. [Instalación](#instalación)
 2. [Uso](#uso)
