@@ -255,3 +255,5 @@ WHERE location_category_reviewed.last_reviewed >= :last_reviewed_1
 FROM location_category_reviewed 
 WHERE location_category_reviewed.last_reviewed >= :last_reviewed_1
 2024-07-05 16:16:26,532 - app.main - INFO - Aplicación FastAPI iniciada
+2024-07-05 17:11:44,776 - app.main - INFO - Aplicación FastAPI iniciada
+2024-07-06 15:32:35,569 - app.main - INFO - Aplicación FastAPI iniciada

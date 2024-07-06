@@ -18,7 +18,7 @@ def create_category(category: category.CategoryCreate, db: Session = Depends(dat
 
     - **name**: nombre de la categoría
     - **description**: descripción de la categoría
-    """    
+    """       
     db_category = crud.create_category(db=db, category=category)
     if db_category is None:        
         raise HTTPException(status_code=400, detail="Error al crear la categoría.")
