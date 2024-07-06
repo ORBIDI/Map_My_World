@@ -1,9 +1,11 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-__pycache__/
 /__pycache__
 *.py[cod]
 *$py.class
+
+# Ignorar archivos .pyc
+*.pyc
 
 # C extensions
 *.so
@@ -109,3 +111,12 @@ docker-compose.override.yml
 # Windows
 Thumbs.db
 ehthumbs.db
+
+# Otras reglas comunes
+*.log
+*.sqlite3
+*.env
+.DS_Store
+.vscode/
+.idea/
+node_modules/
